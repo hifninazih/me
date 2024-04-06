@@ -1,8 +1,6 @@
 [
-    { "title": "Home", "url": "#home" },
-    { "title": "About", "url": "#about" },
-    { "title": "Education", "url": "#education" },
-    { "title": "Licenses & Certifications", "url": "#licenses" },
-    { "title": "Projects", "url": "#projects" }
-  ]
-  
+  { "title": "About", "url": "#about" },
+  { "title": "Education", "url": "#education" },
+  { "title": "Licenses & Certifications", "url": "#licenses" },
+  { "title": "Projects", "url": "#projects" }
+]

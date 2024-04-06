@@ -1,0 +1,33 @@
+[
+  {
+    "title": "Creating a 3D Model of a Camera Bag with Close-Range Photogrammetry",
+    "description": "In this mini project, we're using a special computer program to make a 3D version of a camera bag. It's like taking a bunch of pictures and turning them into a 3D model! First, the program helps us find important points in the pictures automatically. Then, we make sure everything looks just right by adjusting things manually. Finally, we get a 3D version of the camera bag.",
+    "image": "/me/img/projects/taskamera.jpeg",
+    "button": {
+      "secondary": {
+        "text": "View Demo",
+        "link": "/taskamera/"
+      }
+    },
+    "tags": [
+      "MiniProject",
+      "3D Model",
+      "Photogrammetry",
+      "AgisoftMetashapePro",
+      "GroupProject",
+      "Three.js"
+    ]
+  },
+  {
+    "title": "Simple Todo List App with React and Local Storage to Save Tasks",
+    "description": "This simple Todo List App, built using React, offers a user-friendly interface for managing tasks. This app allows users to add, edit, and delete tasks, and it saves the tasks in the local storage. This project serves as an excellent starting point for me as a beginner in React, showcasing basic state management and local storage usage in a practical application. ",
+    "image": "/me/img/projects/simpletodo.jpg",
+    "button": {
+      "secondary": {
+        "text": "View Demo",
+        "link": "/simple-todo/"
+      }
+    },
+    "tags": ["TodoList", "React", "Local Storage", "Exercise Project"]
+  }
+]

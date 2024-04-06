@@ -1,8 +1,4 @@
-// import AOS from "aos";
-// import "aos/dist/aos.css";
-// import { useEffect } from "react";
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
-import Image from "next/image";
 
 function Home() {
   return (

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "me/logo/sanbercode.png",
+    "alt": "sanbercode-logo",
+    "judul": "UI/UX Design",
+    "penyedia": "SANBERCODE",
+    "details": ["Issued Feb 2024", "No.41493/566/SNBR/BOOTCAMP/II/2024"],
+    "link": "https://drive.google.com/file/d/1WntJ7jJXaJR7zVDkvgpiQoZ0Ko7GRsJE/view?usp=sharing"
+  },
+  {
+    "id": 2,
+    "image": "me/logo/udemy.png",
+    "alt": "udemy-logo",
+    "judul": "React Masterclass Untuk Semua",
+    "penyedia": "Udemy",
+    "details": [
+      "Issued Feb 2024",
+      "Credential ID UC-3ed2c058-8212-48bb-aeb9-5b2f650f5535"
+    ],
+    "link": "https://drive.google.com/file/d/1OGuxp5pJ3uwcm9uXhYbiRTTA2X44xwGn/view?usp=drive_link"
+  },
+  {
+    "id": 3,
+    "image": "me/logo/codepolitan.png",
+    "alt": "codepolitan-logo",
+    "judul": "Fullstack MEVN Roadmap",
+    "penyedia": "CODEPOLITAN",
+    "details": ["20+ Courses"],
+    "link": "https://drive.google.com/drive/folders/1OGNetRaS7TjZiCYWxolkoSiS3EwM0yHN?usp=sharing"
+  },
+  {
+    "id": 4,
+    "image": "me/logo/bnsp.png",
+    "alt": "bnsp-logo",
+    "judul": "Junior Web Developer",
+    "penyedia": "Badan Nasional Sertifikasi Profesi (BNSP)",
+    "details": [
+      "Issued Nov 2021 · Expires Nov 2024",
+      "Credential ID TIK.317.05776 2021"
+    ],
+    "link": "https://drive.google.com/file/d/1CIkx7TUMyMUZ78L6BVFl66qfJ0vzbw1s/view?usp=drive_link"
+  }
+]
