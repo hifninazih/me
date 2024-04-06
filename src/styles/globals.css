@@ -1,3 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* FONT */
+body {
+  /* font-family: "Inter", sans-serif; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAV */
+.navbar-fixed {
+  @apply fixed z-[10] bg-white bg-opacity-70 dark:bg-slate-900/50;
+  backdrop-filter: blur(3px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.hamburger-line {
+  @apply my-2 block h-[2px] w-[30px] bg-dark transition dark:bg-slate-100;
+}
+.hamburger-active > span:nth-child(1) {
+  @apply translate-y-2.5 rotate-45;
+}
+
+.hamburger-active > span:nth-child(2) {
+  @apply invisible translate-x-4;
+}
+
+.hamburger-active > span:nth-child(3) {
+  @apply -translate-y-2.5 -rotate-45;
+}
+
+.hamburger-active span {
+  @apply transition duration-300 ease-in-out;
+}
+
+/* WAVE */
+.wave-container {
+  /* height: 40vh; */
+  background-color: #ffffff;
+  position: relative;
+}
+
+.wave-container::before {
+  content: "";
+  width: 100%;
+  height: 49px;
+  position: absolute;
+  bottom: -0.3%;
+  left: 0;
+  background-size: auto;
+  background-repeat: repeat no-repeat;
+  background-position: 26vw bottom;
+  background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 1200 81' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M0 13L33 11C82 8 133 9 200 18C267 27 333 40 400 43C467 45 533 36 600 24C667 13 733 0 800 0C867 0 933 13 1000 18C1067 22 1133 18 1167 15L1200 13V81H1167C1133 81 1067 81 1000 81C933 81 867 81 800 81C733 81 667 81 600 81C533 81 467 81 400 81C333 81 267 81 200 81C133 81 67 81 33 81H0V22.332Z' fill='%23f1f5f9'/></svg>");
+}
+
+@media (max-width: 850px) {
+  .wave-container::before {
+    height: 24.5px;
+  }
+}
+
+/* SCROLLBAR */
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  @apply bg-slate-500;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-primary/70;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}
+
+/* SHAPE DIVIDER */
+.custom-shape-divider {
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.divider-bottom {
+  transform: rotate(180deg);
+}
+
+.divider-top {
+  transform: rotate(0deg);
+}
+
+.custom-shape-divider svg {
+  position: relative;
+  display: block;
+  transform: rotateY(180deg);
+}
+
+/* SECTION TRANSITION CHANGE MODE */
+.section-transition-mode {
+  /* @apply transition-all duration-300; */
+}
