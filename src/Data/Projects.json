@@ -5,7 +5,7 @@
     "image": "/me/img/projects/taskamera.jpeg",
     "button": {
       "secondary": {
-        "text": "View Demo",
+        "text": "View Project",
         "link": "/taskamera/"
       }
     },
@@ -19,15 +19,39 @@
     ]
   },
   {
-    "title": "Simple Todo List App with React and Local Storage to Save Tasks",
+    "title": "Simple Todo List App with React",
     "description": "This simple Todo List App, built using React, offers a user-friendly interface for managing tasks. This app allows users to add, edit, and delete tasks, and it saves the tasks in the local storage. This project serves as an excellent starting point for me as a beginner in React, showcasing basic state management and local storage usage in a practical application. ",
     "image": "/me/img/projects/simpletodo.jpg",
     "button": {
       "secondary": {
-        "text": "View Demo",
+        "text": "View Project",
         "link": "/simple-todo/"
       }
     },
-    "tags": ["TodoList", "React", "Local Storage", "Exercise Project"]
+    "tags": ["TodoList", "React", "TailwindCSS", "Individual Project"]
+  },
+  {
+    "title": "CariKontur App with React and TailwindCSS",
+    "description": "CariKontur is an application designed to simplify the process of manually creating physical maps by helping with the calculation and placement of contour lines. CariKontur helps users to accurately determine the position of contours on a physical map, thereby reducing the time and effort required for manual contour mapping.",
+    "image": "/me/img/projects/carikontur.jpg",
+    "button": {
+      "secondary": {
+        "text": "View Project",
+        "link": "/carikontur/"
+      }
+    },
+    "tags": ["React", "TailwindCSS", "Individual Project"]
+  },
+  {
+    "title": "Simple Interactive Map Data Visualizations",
+    "description": "A simple interactive map data visualization  using a choropleth map to represent the percentage of the population living in poverty in the regencies and cities (kota/kabupaten) of Jawa Barat in 2023 using data from BPS.",
+    "image": "/me/img/projects/petamiskinjabar23.jpg",
+    "button": {
+      "secondary": {
+        "text": "View Project",
+        "link": "/peta-penduduk-miskin-jawabarat-2023/"
+      }
+    },
+    "tags": ["Leaflet", "Vite", "TailwindCSS", "GeoJSON", "Individual Project"]
   }
 ]

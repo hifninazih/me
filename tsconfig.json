@@ -16,6 +16,13 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/pages/Components/UI/ToggleDarkMode.jsx", "src/Sections/UnderConstuction.jsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/pages/Components/UI/ToggleDarkMode.jsx",
+    "src/sections/UnderConstuction.jsx",
+    "src/ui/ToggleDarkMode.tsx"
+  ],
   "exclude": ["node_modules"]
 }

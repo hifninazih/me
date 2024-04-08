@@ -1,16 +1,9 @@
-import Header from "@/Components/Header";
-import Footer from "@/Components/Footer";
-import Home from "@/Sections/Home";
-import About from "@/Sections/About";
-import Education from "@/Sections/Education";
-import Licenses from "@/Sections/Licenses";
-import Projects from "@/Sections/Projects";
-import UnderConstruction from "@/Sections/UnderConstuction";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
+import { Header, Footer, ShapeDivider } from "@/components/Import";
+import { Home, About, Education, Licenses, Projects } from "@/sections/Import";
 import { useEffect } from "react";
 import { Poppins, Inter } from "next/font/google";
-import ShapeDivider from "@/Components/Divider";
+import AOS from "aos"; // AOS
+import "aos/dist/aos.css"; // You can also use <link> for styles
 
 const poppins = Poppins({
   subsets: ["latin"],

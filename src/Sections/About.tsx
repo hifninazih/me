@@ -3,7 +3,7 @@ function About() {
     <>
       <section
         id="about"
-        className="section-transition-mode pb-0 pt-16 dark:bg-slate-900 md:pt-16 lg:pb-32 lg:pt-28 flex justify-center bg-white"
+        className="section-transition-mode flex justify-center bg-white pb-0 pt-16 dark:bg-slate-900 md:pt-16 lg:pb-32 lg:pt-28"
       >
         <div className="container">
           <div className="flex flex-wrap">
@@ -19,10 +19,9 @@ function About() {
               </h2>
               <p className="text-justify text-base font-medium text-secondary dark:text-slate-400 lg:max-w-xl lg:text-lg">
                 {`
-                Hey there! I'm Hifnie, a Geodetic Engineering student at
-                Universitas Gadjah Mada. I enjoy web programming using
-                Javascript Frameworks like React and Node.js. Besides that, I'm
-                part of a university photography group, capturing moments and
+                Hey there! 'm Hifnie, a Geodetic Engineering student at Universitas Gadjah Mada. I enjoy web
+                programming using Javascript Frameworks like React or Express and styling with Tailwind
+                CSS. Besides that, I'm part of a university photography group, capturing moments and
                 exploring the creative side of photography. I'm open to cool
                 projects or just chatting about tech, geodetics, or photography.
                 Feel free to reach out!`}
@@ -39,7 +38,7 @@ function About() {
                 Social Media
               </h3>
               <p className="max-w-xl text-base font-medium text-secondary dark:text-slate-400 lg:text-lg">
-               {` Let's connect with me on social media`}
+                {` Let's connect with me on social media`}
               </p>
               <div className="mt-5 flex items-center justify-start">
                 <a

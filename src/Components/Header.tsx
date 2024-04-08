@@ -1,8 +1,8 @@
-import ToggleDarkMode from "@/UI/toggleDarkMode";
+import ToggleDarkMode from "@/ui/ToggleDarkMode";
 import Navbar from "@/Data/Navbar.json";
 import { useEffect } from "react";
 
-function Header({font} : any) {
+function Header({ font }: any) {
   const onscroll = () => {
     const hamburger = document.getElementById("hamburger") as HTMLElement;
     const navMenu = document.getElementById("nav-menu") as HTMLElement;
@@ -14,11 +14,11 @@ function Header({font} : any) {
 
   function menuBehavior() {
     window.addEventListener("scroll", onscroll);
-    document.addEventListener("click", function (e : any) {
+    document.addEventListener("click", function (e: any) {
       if (!e.target.classList.contains("hamburger-active")) {
         closeMenu();
       }
-    })
+    });
   }
 
   function toggleMenu() {
@@ -41,7 +41,9 @@ function Header({font} : any) {
 
   return (
     <>
-      <header className={`${font} absolute left-0 top-0 z-10 flex h-16 w-full items-center bg-transparent px-4 transition-all lg:h-20 justify-center`}>
+      <header
+        className={`${font} absolute left-0 top-0 z-10 flex h-16 w-full items-center justify-center bg-transparent px-4 transition-all lg:h-20`}
+      >
         <div className="container">
           <div className="relative flex items-center justify-between">
             <div className="px-4">
