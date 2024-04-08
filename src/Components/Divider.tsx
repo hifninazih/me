@@ -1,7 +1,4 @@
-
-
-const ShapeDivider = ({ id, type }:{id: string, type: string}) => {
-  
+const ShapeDivider = ({ id, type }: { id: string; type: string }) => {
   return (
     <>
       <section id={id} className="">
