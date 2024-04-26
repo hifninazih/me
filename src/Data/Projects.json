@@ -4,8 +4,8 @@
     "description": "In this mini project, we're using a special computer program to make a 3D version of a camera bag. It's like taking a bunch of pictures and turning them into a 3D model! First, the program helps us find important points in the pictures automatically. Then, we make sure everything looks just right by adjusting things manually. Finally, we get a 3D version of the camera bag.",
     "image": "/me/img/projects/taskamera.jpeg",
     "button": {
-      "secondary": {
-        "text": "View Project",
+      "primary": {
+        "text": "Live Demo",
         "link": "/taskamera/"
       }
     },
@@ -24,11 +24,15 @@
     "image": "/me/img/projects/simpletodo.jpg",
     "button": {
       "secondary": {
-        "text": "View Project",
+        "text": "Repository",
+        "link": "https://github.com/hifninazih/simple-todo"
+      },
+      "primary": {
+        "text": "Live Demo",
         "link": "/simple-todo/"
       }
     },
-    "tags": ["TodoList", "React", "TailwindCSS", "Individual Project"]
+    "tags": ["TodoList", "React", "TailwindCSS", "Personal Project"]
   },
   {
     "title": "CariKontur App with React and TailwindCSS",
@@ -36,22 +40,44 @@
     "image": "/me/img/projects/carikontur.jpg",
     "button": {
       "secondary": {
-        "text": "View Project",
+        "text": "Repository",
+        "link": "https://github.com/hifninazih/carikontur"
+      },
+      "primary": {
+        "text": "Live Demo",
         "link": "/carikontur/"
       }
     },
-    "tags": ["React", "TailwindCSS", "Individual Project"]
+    "tags": ["React", "TailwindCSS", "Personal Project"]
   },
   {
     "title": "Simple Interactive Map Data Visualizations",
     "description": "A simple interactive map data visualization  using a choropleth map to represent the percentage of the population living in poverty in the regencies and cities (kota/kabupaten) of Jawa Barat in 2023 using data from BPS.",
     "image": "/me/img/projects/petamiskinjabar23.jpg",
     "button": {
-      "secondary": {
-        "text": "View Project",
+      "primary": {
+        "text": "Live Demo",
         "link": "/peta-penduduk-miskin-jawabarat-2023/"
       }
     },
-    "tags": ["Leaflet", "Vite", "TailwindCSS", "GeoJSON", "Individual Project"]
+    "tags": ["Leaflet", "Vite", "TailwindCSS", "GeoJSON", "Personal Project"]
+  },
+  {
+    "title": "Safe Talk Anonymous Message Webpage",
+    "description": "The anonymous message webpage is a basic online platform where users can submit messages without revealing their identity. The message is stored securely and can only be accessed by the owner.",
+    "image": "/me/img/projects/safe-talk.jpg",
+    "button": {
+      "primary": {
+        "text": "Live Demo",
+        "link": "/safe-talk/"
+      }
+    },
+    "tags": [
+      "NextJS",
+      "TailwindCSS",
+      "Spreadsheet",
+      "AppScript",
+      "Personal Project"
+    ]
   }
 ]
