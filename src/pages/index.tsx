@@ -1,5 +1,12 @@
 import { Header, Footer, ShapeDivider } from "@/components/Import";
-import { Home, About, Education, Licenses, Projects } from "@/sections/Import";
+import {
+  Home,
+  About,
+  Education,
+  Licenses,
+  Projects,
+  Contact,
+} from "@/sections/Import";
 import { useEffect } from "react";
 import { Poppins, Inter } from "next/font/google";
 import AOS from "aos"; // AOS
@@ -35,7 +42,9 @@ export default function App() {
         <Licenses />
         <ShapeDivider id={"projects"} type={"section-white"} />
         <Projects />
-        <ShapeDivider id={"footer"} type={"footer"} />
+        <ShapeDivider id={"contact"} type={"section-slate"} />
+        <Contact />
+        <ShapeDivider id={"footer"} type={"footer-b"} />
         {/* <UnderConstruction id="about" title="About" /> */}
         {/* <UnderConstruction  id="about" title="About" /> */}
       </main>
